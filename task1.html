@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3D Flip Cards - Travel Destinations</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="cards-container">
+    <div class="flip-card">
+      <input type="checkbox" id="flip1" aria-hidden="true" />
+      <div class="flip-card-inner">
+        <div class="flip-card-front" style="background-image: url('https://source.unsplash.com/300x210/?tropical,beach');">
+          <div class="overlay">
+            <h2>Tropical Paradise</h2>
+            <p>Sunny beaches & clear waters</p>
+            <label class="flip-btn" for="flip1">View Details</label>
+          </div>
+        </div>
+        <div class="flip-card-back">
+          <div class="card-content">
+            <h3>Paradise Details</h3>
+            <ul>
+              <li>Crystal Clear Waters</li>
+              <li>White Sandy Beaches</li>
+              <li>Exotic Cuisine</li>
+              <li>Water Sports</li>
+            </ul>
+            <label class="flip-btn" for="flip1">Go Back</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <input type="checkbox" id="flip2" aria-hidden="true" />
+      <div class="flip-card-inner">
+        <div class="flip-card-front" style="background-image: url('https://source.unsplash.com/300x210/?mountain,landscape');">
+          <div class="overlay">
+            <h2>Mountain Escape</h2>
+            <p>Serene & majestic views</p>
+            <label class="flip-btn" for="flip2">View Details</label>
+          </div>
+        </div>
+        <div class="flip-card-back">
+          <div class="card-content">
+            <h3>Escape Details</h3>
+            <ul>
+              <li>Hiking Trails</li>
+              <li>Scenic Vistas</li>
+              <li>Peaceful Environment</li>
+              <li>Fresh Air</li>
+            </ul>
+            <label class="flip-btn" for="flip2">Go Back</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
